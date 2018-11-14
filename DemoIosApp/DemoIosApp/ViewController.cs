@@ -33,7 +33,7 @@ namespace DemoIosApp
 
         private void TestFunction()
         {
-            var name = "Bharat Aghera";
+            var name = "Bharat Aghera ";
         }
     }
 }
