@@ -29,5 +29,9 @@ namespace DemoIosApp
             alertVC.Show();
         }
 
+        private void TestFunction()
+        {
+
+        }
     }
 }
