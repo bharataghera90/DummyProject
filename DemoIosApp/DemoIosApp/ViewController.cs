@@ -25,8 +25,10 @@ namespace DemoIosApp
 
         partial void OnClickButtonTapped(Foundation.NSObject sender)
         {
+            //AlertView
             var alertVC = new UIAlertView("Title", "Hello App", null, "Cancel", null);
             alertVC.Show();
+
         }
 
         private void TestFunction()
