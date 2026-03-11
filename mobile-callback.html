@@ -30,7 +30,7 @@
                 const DELAY_MS = 10000;
 
                 setTimeout(() => {
-                    const deepLink = `${appScheme}://callback${query}${hash}`;
+                    const deepLink = `${appScheme}://*`;
 
                     window.location.href = deepLink;
                 }, DELAY_MS);
